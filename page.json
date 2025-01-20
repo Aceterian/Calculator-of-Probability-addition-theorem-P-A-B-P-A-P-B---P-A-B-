@@ -1,0 +1,7 @@
+{
+    "name": "Calculator-of-Probability-addition-theorem2",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "echo 'No build step required'"
+    }
+}
