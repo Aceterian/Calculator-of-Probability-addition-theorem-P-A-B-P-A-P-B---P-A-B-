@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вероятностный калькулятор</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Калькулятор вероятностей</h1>
+        <h2>P(A+B) = P(A) + P(B) - P(A*B)</h2>
+        <form id="probabilityForm">
+            <label for="eventA">Вероятность события A:</label>
+            <input type="number" id="eventA" name="eventA" min="0" max="1" step="0.01" required>
+            <label for="eventB">Вероятность события B:</label>
+            <input type="number" id="eventB" name="eventB" min="0" max="1" step="0.01" required>
+            <label for="eventAB">Вероятность совместного события A и B:</label>
+            <input type="number" id="eventAB" name="eventAB" min="0" max="1" step="0.01" required>
+            <button type="submit" id="calculateButton">Рассчитать</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="CalcVb2.js"></script>
+</body>
+</html>
